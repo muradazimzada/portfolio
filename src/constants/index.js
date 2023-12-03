@@ -28,7 +28,10 @@ import {
   aws,
   azure,
   redis,
-  rabbitmq
+  rabbitmq,
+  java,
+  sql,
+  nestjs
 } from "../assets";
 
 export const navLinks = [
@@ -62,9 +65,13 @@ const technologies = [
     name: ".NET",
     icon: dotnet,
   },
+  // {
+  //   name: "C#",
+  //   icon: csharp,
+  // },
   {
-    name: "C#",
-    icon: csharp,
+    name: "NestJS",
+    icon: nestjs,
   },
   {
     name: "Redis",
@@ -82,22 +89,22 @@ const technologies = [
     name: "AWS",
     icon: aws,
   },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "HTML 5",
-    icon: html,
+    name: "SQL",
+    icon: sql,
   },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
   {
     name: "TypeScript",
     icon: typescript,
@@ -106,18 +113,18 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
   {
     name: "MongoDB",
     icon: mongodb,
@@ -130,10 +137,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "docker",
     icon: docker,

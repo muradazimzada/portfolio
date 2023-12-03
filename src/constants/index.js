@@ -23,6 +23,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  csharp,
+  dotnet,
+  aws,
+  azure,
+  redis,
+  rabbitmq
 } from "../assets";
 
 export const navLinks = [
@@ -52,6 +58,34 @@ const services = [
 ];
 
 const technologies = [
+  {
+    name: ".NET",
+    icon: dotnet,
+  },
+  {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: "Redis",
+    icon: redis,
+  },
+  {
+    name: "RabbitMQ",
+    icon: rabbitmq,
+  },
+  {
+    name: "Azure",
+    icon: azure,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
   {
     name: "HTML 5",
     icon: html,

@@ -31,6 +31,14 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import profile from "./profile.jpeg"
 
+
+import csharp from "./tech/c-sharp.png";
+import dotnet from "./tech/.net.png";
+import aws from "./tech/aws.png";
+import azure from "./tech/azure.webp";
+import rabbitmq from "./tech/rabbitmq.png";
+import redis from "./tech/redis.png";
+
 export {
   logo,
   backend,
@@ -60,5 +68,11 @@ export {
   carrent,
   jobit,
   tripguide,
-  profile
+  profile,
+  csharp,
+  dotnet,
+  redis,
+  rabbitmq,
+  azure,
+  aws
 };

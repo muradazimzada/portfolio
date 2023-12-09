@@ -48,11 +48,16 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          I'm a skilled software developer with experience in C# and
+          {/* I'm a skilled software developer with experience in C# and
           TypeScript, and expertise in frameworks like .NET, Nest.js, and
           Java Spring Boot. I'm a quick learner and collaborate closely with clients to
           create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
+          real-world problems. Let's work together to bring your ideas to life! */}
+          Experienced software developer, I am proficient in C# and TypeScript, with a strong command of frameworks like .NET, Nest.js, and Java Spring Boot.
+          I am adept at rapid learning and thrive in close client collaboration, ensuring we craft efficient, scalable, and user-friendly solutions.
+          <br />
+          Let's team up, and together, <br />
+          <b>transform your ideas into reality</b>!
         </motion.p>
         <motion.img
           src={profile}  // Replace with the actual URL of your picture

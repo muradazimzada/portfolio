@@ -25,11 +25,15 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import ferrum from "./company/ferrumlogo.png"
+import growlab from "./company/growlab-logo.svg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import profile from "./profile.jpeg"
+import crm from "./crm-dashboard-main.png"
+import lib from "./lib.png"
 
 
 import csharp from "./tech/c-sharp.png";
@@ -41,6 +45,7 @@ import redis from "./tech/redis.png";
 import sql from "./tech/sql.png";
 import java from "./tech/java.png";
 import nestjs from "./tech/nestjs.png"
+
 export {
   logo,
   backend,
@@ -79,5 +84,9 @@ export {
   aws,
   java,
   nestjs,
-  sql
+  sql,
+  ferrum,
+  growlab,
+  crm,
+  lib
 };
